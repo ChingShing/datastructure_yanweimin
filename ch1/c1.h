@@ -3,13 +3,14 @@
 
  #include<string.h>
  #include<ctype.h>
- #include<malloc.h> /* malloc()等 */
- #include<limits.h> /* INT_MAX等 */
  #include<stdio.h> /* EOF(=^Z或F6),NULL */
+ //#include<malloc.h> /* malloc()等 */
+ #include<limits.h> /* INT_MAX等 */
+ 
  #include<stdlib.h> /* atoi() */
- #include<io.h> /* eof() */
+ //#include<io.h> /* eof() */
  #include<math.h> /* floor(),ceil(),abs() */
- #include<process.h> /* exit() */
+ //#include<process.h> /* exit() */
  /* 函数结果状态代码 */
  #define TRUE 1
  #define FALSE 0
